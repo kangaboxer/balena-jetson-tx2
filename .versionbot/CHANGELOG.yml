@@ -1,4 +1,20 @@
 - commits:
+    - subject: Add patch with pixelformat descriptions
+      hash: c776d924d9b1c906a345522185b5729cf8f13886
+      body: >
+        This fixes the kernel warning "Unknown pixelformat <pixelformat-id>" for
+        the
+
+        pixelformats without descriptions in the kernel.
+      footer:
+        Changelog-entry: Add patch with pixelformat descriptions
+        changelog-entry: Add patch with pixelformat descriptions
+        Signed-off-by: Niclas Moeslund Overby <noverby@prozum.dk>
+        signed-off-by: Niclas Moeslund Overby <noverby@prozum.dk>
+      author: Niclas Moeslund Overby
+  version: 2.29.0+rev2
+  date: 2018-12-23T08:43:51.099Z
+- commits:
     - subject: Update meta-resin from v2.27.0 to v2.29.0
       hash: 8f1999b994cee5041aac91b730200bf7f381604d
       body: |
